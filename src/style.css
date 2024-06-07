@@ -1,3 +1,14 @@
+:root {
+  --primary-color: #ffa47c;
+  --secondary-color: #f16a44;
+
+  --accent-color: #f6db68;
+  --accent2-color: #ed1c4c;
+  --accent3-color: #ac1f6c;
+
+  --title-color: #60113c;
+}
+
 body {
-  background-color: pink;
+  background-color: var(--primary-color);
 }
