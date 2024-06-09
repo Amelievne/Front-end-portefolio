@@ -8,17 +8,37 @@
 
   --title-color: #60113c;
 }
-.chicle-regular {
-  font-family: "Chicle", serif;
-  font-weight: 400;
-  font-style: normal;
-}
 
 body {
   background-color: var(--primary-color);
   font-family: "Chicle", serif;
   font-weight: 400;
   font-style: normal;
+}
+h1 {
+  color: var(--title-color);
+  padding-bottom: 27px;
+}
+img {
+  background-color: var(--secondary-color);
+  border: 3px solid var(--accent-color);
+  border-radius: 50%;
+  box-shadow: 0 0 0 26px var(--accent2-color);
+  outline: 13px solid var(--accent3-color);
+  width: 60%;
+}
+p {
+  color: var(--secondary-color);
+  font-size: 23px;
+}
+.chicle-regular {
+  font-family: "Chicle", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.btn-img {
+  margin: 83px auto;
+  width: 57% !important;
 }
 
 .navbar {
@@ -27,7 +47,7 @@ body {
   border-right: none;
   border-radius: 50px 0 0 50px;
   box-shadow: 0 0 0 26px var(--accent3-color);
-  margin: 43px 0 43px 43px;
+  margin: 63px 0 93px 53px;
   padding: 0 0 0 15px;
   outline: 13px solid var(--accent2-color);
 }
