@@ -8,12 +8,20 @@
 
   --title-color: #60113c;
 }
-
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
 body {
   background-color: var(--primary-color);
   font-family: "Chicle", serif;
   font-weight: 400;
   font-style: normal;
+}
+footer {
+  font-size: 21px;
+  margin: 0 0 63px !important;
+  width: 100% !important;
 }
 h1 {
   color: var(--title-color);
@@ -24,6 +32,7 @@ img {
   border: 3px solid var(--accent-color);
   border-radius: 50%;
   box-shadow: 0 0 0 26px var(--accent2-color);
+  margin: auto;
   outline: 13px solid var(--accent3-color);
   width: 60%;
 }
@@ -37,10 +46,32 @@ p {
   font-style: normal;
 }
 .btn-img {
-  margin: 83px auto;
+  margin: 83px auto 93px;
   width: 57% !important;
 }
-
+.fa-brands,
+.fa-solid {
+  background-color: var(--accent-color);
+  border-radius: 50%;
+  color: var(--title-color);
+  font-size: 21px;
+  padding: 5px;
+}
+.f-contact {
+  background-color: var(--accent3-color);
+  border: 13px solid var(--accent2-color);
+  border-left: none;
+  border-radius: 0 50px 50px 0;
+  outline: 13px solid var(--accent-color);
+}
+.f-contact-icon {
+  background-color: var(--accent2-color);
+  border: 13px solid var(--accent2-color);
+  border-right: none;
+  border-radius: 50px 0px 0px 50px;
+  outline: 13px solid var(--accent-color);
+  padding: 0;
+}
 .navbar {
   background-color: var(--secondary-color) !important;
   border: 13px solid var(--accent-color);
@@ -55,4 +86,14 @@ p {
 .navbar-brand {
   color: var(--title-color) !important;
   font-size: 27px;
+}
+
+@media (min-width: 1200px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 100%;
+  }
 }
