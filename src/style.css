@@ -27,15 +27,7 @@ h1 {
   color: var(--title-color);
   padding-bottom: 27px;
 }
-img {
-  background-color: var(--secondary-color);
-  border: 3px solid var(--accent-color);
-  border-radius: 50%;
-  box-shadow: 0 0 0 26px var(--accent2-color);
-  margin: auto;
-  outline: 13px solid var(--accent3-color);
-  width: 60%;
-}
+
 p {
   color: var(--secondary-color);
   font-size: 23px;
@@ -86,6 +78,25 @@ p {
 .navbar-brand {
   color: var(--title-color) !important;
   font-size: 27px;
+}
+.round-img {
+  background-color: var(--secondary-color);
+  border: 3px solid var(--accent-color);
+  border-radius: 50%;
+  box-shadow: 0 0 0 26px var(--accent2-color);
+  margin: auto;
+  outline: 13px solid var(--accent3-color);
+  width: 60%;
+}
+i.round-img {
+  background-color: var(--accent-color);
+  display: block;
+  font-size: 93px;
+  height: 127px;
+  margin: auto;
+  padding: 14px;
+  text-align: center;
+  width: 127px;
 }
 
 @media (min-width: 1200px) {
