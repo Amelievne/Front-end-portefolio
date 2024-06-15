@@ -90,13 +90,27 @@ p {
   border-radius: 0 90px 90px 0;
   outline: 13px solid var(--accent2-color);
 }
-
+.project-presentation-right {
+  background-color: var(--secondary-color);
+  border: 13px solid var(--accent-color);
+  border-right: none;
+  border-radius: 90px 0 0 90px;
+  outline: 13px solid var(--accent3-color);
+}
 .project-preview-left {
   background-color: var(--secondary-color);
   border: 13px solid var(--accent-color);
   border-radius: 50%;
   margin: 0 30px;
   outline: 13px solid var(--accent2-color);
+  width: 60%;
+}
+.project-preview-right {
+  background-color: var(--secondary-color);
+  border: 13px solid var(--accent-color);
+  border-radius: 50%;
+  margin: 0 30px;
+  outline: 13px solid var(--accent3-color);
   width: 60%;
 }
 .project-portefolio {
